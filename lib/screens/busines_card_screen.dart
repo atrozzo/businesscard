@@ -58,6 +58,20 @@ class BusinessCardScreen extends StatelessWidget {
                 ),
               ],
             ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                Icon(Icons.location_on, color: Colors.grey,),
+                Text("Bristol, United Kingdom",
+                  style: TextStyle(
+                    color: Colors.teal.shade100,
+                    fontSize: 10.0,
+                    fontFamily: 'SourceSansPro',
+                    fontWeight: FontWeight.bold,
+                    letterSpacing: 2.5,
+                  ),)
+              ],
+            ),
             _getBoxedRow(),
             _getBoxedRow(),
             Card(
